@@ -72,7 +72,7 @@ const FormControlInput = ({
     placeholder?: any
     inputMode?: any
 }) => {
-    const numericMode = mode == 'numeric' ? 'numeric' : 'text';
+    const numericMode = mode === 'numeric' ? 'numeric' : 'text';
     return (
         <Box
             component="form"

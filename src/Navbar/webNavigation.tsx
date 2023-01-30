@@ -58,7 +58,7 @@ const WebNavigation = (params: any) => {
                                         </Link>
                                     </div>
                                     <div
-                                        className={(item.a["#text"] == 'Coins And Bars') ? "coinsDropdown-content dropdown-content" : "dropdown-content"}>
+                                        className={(item.a["#text"] === 'Coins And Bars') ? "coinsDropdown-content dropdown-content" : "dropdown-content"}>
                                     </div>
                                 </div>
                             )
