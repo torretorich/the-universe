@@ -20,20 +20,20 @@ const Footer = () => {
                 </div>
                 <div className={"footerSingleColumn"}>
                     <div className={"footerHeadings"}>Quick Links</div>
-                    <a className={"linkFooterHeading"} href="#">CONTACT US</a>
-                    <a className={"linkFooterHeading"} href="#">ABOUT US</a>
-                    <a className={"linkFooterHeading"} href="#">YOUR ACCOUNT</a>
-                    <a className={"linkFooterHeading"} href="#">CAREERS</a>
-                    <a className={"linkFooterHeading"} href="#">TESTIMONIAL</a>
-                    <a className={"linkFooterHeading"} href="#">RETURN AND REFUND</a>
-                    <a className={"linkFooterHeading"} href="#">TERMS OF USE</a>
+                    <a className={"linkFooterHeading"} href="/">CONTACT US</a>
+                    <a className={"linkFooterHeading"} href="/">ABOUT US</a>
+                    <a className={"linkFooterHeading"} href="/">YOUR ACCOUNT</a>
+                    <a className={"linkFooterHeading"} href="/">CAREERS</a>
+                    <a className={"linkFooterHeading"} href="/">TESTIMONIAL</a>
+                    <a className={"linkFooterHeading"} href="/">RETURN AND REFUND</a>
+                    <a className={"linkFooterHeading"} href="/">TERMS OF USE</a>
                 </div>
                 <div className={"footerSingleColumn"}>
                     <div className={"footerHeadings"}>Shop</div>
-                    <a className={"linkFooterHeading"} href="#">CUSTOM SCULPTURES</a>
-                    <a className={"linkFooterHeading"} href="#">MASTER OFFICIAL MERCHANDISE</a>
-                    <a className={"linkFooterHeading"} href="#">KGF OFFICIAL MERCHANDISE</a>
-                    <a className={"linkFooterHeading"} href="#">LIFE SIZE SCULPTURES</a>
+                    <a className={"linkFooterHeading"} href="/">CUSTOM SCULPTURES</a>
+                    <a className={"linkFooterHeading"} href="/">MASTER OFFICIAL MERCHANDISE</a>
+                    <a className={"linkFooterHeading"} href="/">KGF OFFICIAL MERCHANDISE</a>
+                    <a className={"linkFooterHeading"} href="/">LIFE SIZE SCULPTURES</a>
                 </div>
                 <div className={"footerSocialLinksColumn"}>
                     <div className={"footerHeadings"}>Newsletter</div>
@@ -43,10 +43,10 @@ const Footer = () => {
                     </div>
                     <AppContinueButton className={"signUpButton"} disableBtn={false} title={"SIGN UP"}/>
                     <div className={"linkSection"}>
-                        <TwitterIcon style={{color: "#676869"}}/>
-                        <FacebookIcon style={{color: "#676869", marginLeft: '10px'}}/>
-                        <YouTubeIcon style={{color: "#676869", marginLeft: '10px'}}/>
-                        <InstagramIcon style={{color: "#676869", marginLeft: '10px'}}/>
+                        <TwitterIcon style={{color: "/676869"}}/>
+                        <FacebookIcon style={{color: "/676869", marginLeft: '10px'}}/>
+                        <YouTubeIcon style={{color: "/676869", marginLeft: '10px'}}/>
+                        <InstagramIcon style={{color: "/676869", marginLeft: '10px'}}/>
                     </div>
                 </div>
             </div>
