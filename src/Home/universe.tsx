@@ -14,8 +14,6 @@ import kgfImage from "../images/kgfImage.png"
 // @ts-ignore
 import kyfPic from "../images/kgfPic.jpeg"
 // @ts-ignore
-import ashokaImage from "../images/ashokaImage.png"
-// @ts-ignore
 import customers from "../images/customers.png"
 // @ts-ignore
 import shipping from "../images/shippingIcon.png"
@@ -25,8 +23,6 @@ import secure from "../images/lock.png"
 import message from "../images/message.png"
 // @ts-ignore
 import clients from "../images/clients.jpeg"
-// @ts-ignore
-import G26 from "../images/G26.jpeg";
 // @ts-ignore
 import greetingImage from '../images/greetingCard1.jpeg'
 // @ts-ignore

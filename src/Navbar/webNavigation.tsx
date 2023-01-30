@@ -17,7 +17,6 @@ import routes from "../config/routes";
 
 const WebNavigation = (params: any) => {
     const {showNavbar, setShowNavbar} = params
-    const [selectedSubMenu, setSelectedSubMenu] = useState<any>({});
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 
@@ -48,9 +47,7 @@ const WebNavigation = (params: any) => {
                     {headerNavigation.li.map((item: any, index: number) => {
                             return (
                                 <div className="dropdown" key={index}>
-                                    <div className="dropbtn" onMouseEnter={() => {
-                                        setSelectedSubMenu(item)
-                                    }}>
+                                    <div className="dropbtn">
                                         <Link href={item.a._href}>
                                             <div className='tabDiv'>
                                                 <AppSpan className={'navTabText'} dataItem={item.a["#text"]}/>
