@@ -1,0 +1,909 @@
+.nav-elements {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #dfe3e8;
+    align-items: center;
+}
+
+.headerItems {
+    width: 90%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.commonBgColor {
+    background-color: #303e49;
+}
+
+.navTabText {
+    font-size: 16px;
+    font-family: the-sans-b-5-plain;
+    color: #cfa04f;
+}
+
+a:link {
+    color: #000000;
+    font-size: 14px;
+    text-decoration: none !important;
+}
+
+.navText {
+    font-family: the-sans-b-5-plain;
+    font-size: 14px;
+}
+
+.shopByWeight {
+    /*font-family: the-sans-b-5-plain;*/
+    font-weight: 700;
+}
+
+.navCtaText {
+    font-family: the-sans-b-5-plain;
+}
+
+.navFocusedText {
+    font-family: Friz_Quadrata_BT;
+    color: #cfa04f;
+    margin-left: 10px;
+}
+
+.navCoinsText {
+    font-family: Friz_Quadrata_BT;
+    font-size: 14px;
+}
+
+.navCoinsText:hover {
+    cursor: pointer;
+    color: #cfa04f;
+}
+
+.navText:hover {
+    color: #cfa04f;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 10px 18px 10px 18px;
+    font-size: 14px;
+    border: none;
+    height: 50px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    /*border-bottom: 1px solid #dfe3e8;*/
+}
+
+.profileDropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.profileDropdown:hover .profileDropdownContent {
+    display: block;
+}
+
+.messageTodayPrice {
+    width: 95px;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'the-sans-b-5-plain';
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.todayPriceText {
+    font-size: 18px;
+    width: auto;
+    text-align: left;
+    justify-content: left;
+}
+
+
+.todayPriceOuterDivMobile {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    padding: 23px 20px;
+    background-color: #cfa04f;
+}
+
+.hamBurger {
+    bottom: 0;
+    left: 0;
+}
+
+
+.profileDropdown:hover .dropIcons {
+    border-bottom: 3px solid #cfa04f;
+    cursor: pointer;
+}
+
+.noOfItem {
+    display: flex;
+    z-index: 1;
+    background-color: #ea0606;
+    border-radius: 50%;
+    color: #f0f0f0;
+    position: absolute;
+    width: 11%;
+    height: 22%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 4px 0 0 35px;
+    font-size: 12px;
+}
+
+.dropIcons {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+    height: 68px;
+}
+
+.profileDropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    margin-left: -200px;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 25px;
+}
+
+.profileDropdownContent a:hover {
+    background-color: #ffffff;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    min-height: 70px;
+}
+
+.coinsDropdown-content {
+    width: 950px;
+    padding: 10px;
+    height: 525px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    border-bottom: 3px solid #cfa04f;
+    color: #cfa04f;
+    font-weight: bold;
+}
+
+.navTabs {
+    width: 230px;
+    padding: 25px 25px 10px 25px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.giftMenuDiv {
+    padding: 10px;
+    width: 90%;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    /*margin-left: 13px;*/
+}
+
+.giftMenuDiv:hover {
+    border: 1px solid #cfa04f;
+    cursor: pointer;
+}
+
+.giftMenuDiv:hover #label {
+    color: #cfa04f;
+}
+
+.giftHeader {
+    font-size: 20px;
+    font-family: Friz_Quadrata_BT;
+}
+
+.coinsAndBarDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menuItemOuterDiv {
+    padding: 5px 10px 10px 0;
+}
+
+.menuItemDiv {
+    font-family: 'Friz_Quadrata_BT';
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 0;
+}
+
+.menuIconItemDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ctaIconDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 20px;
+}
+
+.menuIconItemImage:hover {
+    border: 1px solid #cfa04f;
+}
+
+.menuItemIcon {
+    background-color: #f2f2f2;
+    width: 80px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuItemIcon:hover {
+    border: 1px solid #cfa04f;
+    color: #cfa04f;
+    cursor: pointer;
+}
+
+.menuIconItemHead {
+    margin-bottom: 10px;
+}
+
+.menuIconItemImage {
+    background-color: #f2f2f2;
+    width: 60px;
+    height: 85px;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.firstMenuIconTime {
+    margin-left: 0;
+}
+
+.coinBarDiv {
+    width: 300px;
+    border-right: 1px solid #f2f2f2;
+    margin-right: 10px;
+    height: 490px;
+}
+
+.lastCoinBarDiv {
+    width: 300px;
+    margin-right: 10px;
+    height: 490px;
+}
+
+.tabDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.iconsDiv {
+    width: 12%;
+    margin-left: 0;
+    display: flex;
+    margin-top: 17px;
+    height: 100%;
+    align-items: center;
+}
+
+.searchNavIcon {
+    color: #cfa04f;
+}
+
+.profileIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.navProfileDetailsDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    object-fit: contain;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+}
+
+.navProfileName {
+    flex-grow: 0;
+    object-fit: contain;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.33px;
+    color: #000;
+    font-family: Friz_Quadrata_BT;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.navViewProfileBtn {
+    border: none;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: 0.5px;
+    text-align: right;
+    color: #cfa04f;
+    margin-left: 10px;
+}
+
+.navUserDetail {
+    align-items: center;
+    width: 100%;
+}
+
+.navProfileMenu {
+    padding: 10px;
+    font-weight: 100;
+}
+
+.navProfileMenu:hover {
+    color: #cfa04f;
+    cursor: pointer;
+}
+
+.logOut {
+    letter-spacing: 0.84px;
+    color: #cfa04f;
+    font-family: "TheSans-B7Bold";
+    cursor: pointer;
+}
+
+.ctaImage {
+    max-width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.crossIcon {
+    width: 5%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+    .searchNavIcon {
+        width: 22px;
+    }
+
+    .shopByWeight {
+        /*font-family: the-sans-b-5-plain;*/
+        font-size: 18px;
+    }
+
+    .navCoinsText {
+        font-family: Friz_Quadrata_BT;
+        margin-left: 10px;
+        font-size: 18px;
+    }
+
+    .navPopUp {
+        background-color: #FFFFFF;
+        width: 100%;
+        height: 100%;
+        overflow: scroll;
+    }
+
+    .navText:hover {
+        color: black;
+    }
+
+    .navText {
+        font-size: 20px;
+    }
+
+    .navCoinsText:hover {
+        cursor: pointer;
+        color: black;
+    }
+
+    .navHeaderSection {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navClose {
+        margin-left: 80px;
+        margin-right: 20px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .contactUsHamBurger {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 15px 15px 15px 0;
+        font-size: 20px;
+        /*justify-content: space-between;*/
+        align-items: center;
+    }
+
+    .navTextContactUs {
+        font-size: 20px;
+        width: 100%;
+        padding-left: 15px;
+        font-family: 'the-sans-b-5-plain';
+    }
+
+    .contactHamBurger {
+        display: flex;
+        width: 100%;
+        padding-left: 14px;
+        margin: 10px 0 10px 0;
+        justify-content: space-evenly;
+    }
+
+    .contactUsMobileNumber {
+        font-size: 14px;
+        color: #cfa04f;
+    }
+
+    .sepratorLineContactUs {
+        width: 1px;
+        height: 16px;
+        /*margin: 22px 9px 25px 10px;*/
+        transform: rotate(-270deg);
+        background-color: #d7d8d9;
+    }
+
+    .menuHeaderSection {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+        font-size: 25px;
+        color: #cfa04f;
+    }
+
+    .profileHeaderSection {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+        font-size: 25px;
+        color: #cfa04f;
+        justify-content: space-between;
+    }
+
+    .backIcon {
+        color: #cfa04f;
+        margin-right: 20px;
+        height: 50px;
+    }
+
+    .navTabs {
+        width: 100%;
+        padding: 15px;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navArrowImg {
+        height: 35px;
+        width: 30px;
+        transform: rotate(-90deg);
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .navCoinsArrowDownImg {
+        height: 35px;
+        width: 30px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .navCoinsArrowUpImg {
+        height: 35px;
+        width: 30px;
+        margin-right: 10px;
+        cursor: pointer;
+        color: #cfa04f;
+    }
+
+    .contactTab {
+        padding: 15px;
+        font-size: 22px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactDiv {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contactText {
+        font-size: 17px;
+        color: #cfa04f;
+    }
+
+    .contactTabs {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .giftMenuDiv {
+        padding: 10px;
+        width: 90%;
+        background-color: #f2f2f2;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .ctaDiv {
+        padding: 10px;
+        width: 90%;
+        background-color: #f2f2f2;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+
+    .giftFlex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .giftHeader {
+        font-size: 23px;
+        font-family: Friz_Quadrata_BT;
+    }
+
+    .menuItemDiv {
+        font-family: 'Friz_Quadrata_BT';
+        font-size: 18px;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    .menuItemOuterDiv {
+        padding: 5px 15px 10px 15px;
+    }
+
+    .menuIconItemDiv {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 25px;
+    }
+
+    .ctaIconDiv {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-left: 25px;
+        margin-bottom: 0;
+    }
+
+    .menuItemIcon {
+        background-color: #f2f2f2;
+        width: 70px;
+        padding: 5px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+    }
+
+    .weightText {
+        font-family: the-sans-b-5-plain;
+        font-size: 16px;
+    }
+
+    .menuIconItemHead {
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+
+    .menuIconItemLine {
+        width: 90%;
+        height: 1px;
+        flex-grow: 0;
+        margin: 1px 0 10px 18px;
+        background-color: #d7d8d9;
+    }
+
+    .menuIconItemImage {
+        background-color: #f2f2f2;
+        width: 100px;
+        height: 135px;
+        padding: 5px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .dropIcons {
+        padding: 0;
+    }
+
+    .iconsDiv {
+        width: 50%;
+        margin-left: 10px;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .searchNavIconDiv {
+        /*margin-right: 10px;*/
+        margin-top: 0;
+        height: 20px;
+        width: 35px;
+    }
+
+    .dropIcons {
+        height: 20px;
+    }
+
+    .cartIcon {
+        height: 20px;
+    }
+
+    .profileIcon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .profileMenuPopUp {
+        position: absolute;
+        background-color: #FFFFFF;
+        /*top:10%;*/
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        overflow: scroll;
+    }
+
+    .navProfileDetailsDiv {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+        object-fit: contain;
+        border-radius: 10px;
+        background-color: #f2f2f2;
+        width: 90%;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .navProfileName {
+        flex-grow: 0;
+        object-fit: contain;
+        font-size: 13px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.33px;
+        color: #000;
+        font-family: Friz_Quadrata_BT;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+
+    .navViewProfileBtn {
+        border: none;
+        text-decoration: none;
+        background-color: transparent;
+        font-size: 12px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: 0.5px;
+        text-align: right;
+        color: #cfa04f;
+        margin-left: 10px;
+    }
+
+    .navUserDetail {
+        align-items: center;
+        width: 100%;
+    }
+
+    .navProfileMenu {
+        padding: 10px;
+        font-weight: 100;
+        font-size: 18px;
+        margin: 5px 0 5px 20px;
+    }
+
+    .navProfileMenu:hover {
+        color: #cfa04f;
+        cursor: pointer;
+    }
+
+    .logOut {
+        letter-spacing: 0.84px;
+        color: #cfa04f;
+        font-family: "TheSans-B7Bold";
+        cursor: pointer;
+        font-size: 20px;
+        height: 20vh;
+    }
+
+    .ctaImage {
+        max-width: 90%;
+        margin-bottom: 10px;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .noOfItem {
+        display: flex;
+        z-index: 1;
+        background-color: #ea0606;
+        border-radius: 50%;
+        color: #f0f0f0;
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: -3px 0 0 11px;
+        font-size: 12px;
+    }
+
+    /* hamburger Styling*/
+    .crossIcon {
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    .menu-icon {
+        display: flex;
+        cursor: pointer;
+        width: 100%;
+        background-color: #f7f1f0;
+        justify-content: space-between;
+        padding: 4px 0 4px 0;
+    }
+
+    .nav-elements {
+        /*position: absolute;*/
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        right: 0;
+        top: 0;
+        background-color: #fef7e5;
+        height: 100%;
+        transition: all 0.3s ease-in;
+        overflow: hidden;
+    }
+
+    .headerItems {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .nav-elements.active {
+        width: 100%;
+    }
+
+    .nav-elements.disable {
+        display: none;
+    }
+
+    /*.nav-elements {*/
+    /*    display: none;*/
+    /*}*/
+    .dropdown {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menuIconDisplayNone {
+        display: none;
+    }
+
+    .dropbtn {
+        margin-right: unset;
+        margin-top: 22px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .searchNavIconDiv {
+        margin-top: 0;
+        height: 20px;
+        width: 30px;
+    }
+
+    .profileIcon {
+        margin-left: 15px;
+    }
+
+}

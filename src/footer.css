@@ -1,0 +1,141 @@
+.footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.footerBox {
+    padding: 80px 0;
+    background: #dfe3e8;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footerInnerSection {
+    display: flex;
+    width: 98%;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.footerSingleColumn {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 60px;
+    width: 30%;
+}
+
+.footerSocialLinksColumn {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footerMainSection {
+    display: flex;
+}
+
+@media (max-width: 1000px) {
+    .footerSingleColumn {
+        grid-template-columns: repeat(auto-fill,
+        minmax(200px, 1fr));
+    }
+}
+
+.linkFooterHeading {
+    color: #676869;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.linkFooterHeading:hover {
+    color: #cfa04f;
+    transition: 200ms ease-in;
+}
+
+.footerHeadings {
+    font-size: 24px;
+    color: #676869;
+    margin-bottom: 40px;
+    font-weight: bold;
+
+}
+
+.signUpMessage {
+    color: #676869;
+    font-size: 15px;
+}
+
+.signUpButton {
+    background-color: #f06729;
+    border: 1.5px solid #f06729;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 1.2em 25px;
+    text-align: center;
+    border-radius: 3px;
+    display: inline-block;
+    font-family: "Humanist 521", sans-serif;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    width: 40%;
+}
+
+.inputFieldBox {
+    width: 90%;
+    display: flex;
+}
+
+.linkSection {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+@media (max-width: 1000px) {
+    .footerBox {
+        padding: 70px 0;
+    }
+
+    .footerSingleColumn {
+        grid-template-columns: repeat(auto-fill,
+        minmax(200px, 1fr));
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footerBox {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerInnerSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerSingleColumn, .footerSocialLinksColumn {
+        width: 90%;
+        margin-left: 0;
+        padding-left: 20px;
+    }
+
+    .signUpButton {
+        width: 50%;
+    }
+}

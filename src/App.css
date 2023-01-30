@@ -1,0 +1,215 @@
+.homeHeader {
+    display: flex;
+    clear: both;
+    width: 100%;
+    align-items: center;
+    background-color: #f7f1f0;
+}
+
+.headerHeading, .headerHeadingTwo, .headerHeadingThree {
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Humanist 521", sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    padding: 12px 0;
+    color: #cfa04f;
+}
+
+.newLaunchHeading {
+    color: #cfa04f;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+    font-family: "sans-serif";
+}
+
+.newLaunch {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 15px 0;
+
+}
+
+.newLaunchSection {
+    display: flex;
+    width: 95%;
+}
+
+.cardImage {
+    display: flex;
+    /*padding-right: 30px;*/
+    margin-right: 25px;
+    width: 30%;
+}
+
+.cardLastImage {
+    display: flex;
+    width: 30%;
+}
+
+.advertisementSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstMovie {
+    width: 95%;
+    margin: 80px 0 80px 0;
+}
+
+.firstMovieCollectibles {
+    width: 100%;
+}
+
+.advertisementSingleSection {
+    width: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+
+.buyMoreButtonSection {
+    display: flex;
+    width: 100%;
+    /*height: 100%;*/
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.buttonBuyMore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+    background: #ffffff;
+    color: #212b36;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 13px;
+    font-family: "Humanist 521", sans-serif;
+}
+
+.customersSection {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.customersImage {
+    width: 100%;
+}
+
+.keyPointsData {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #f7f1f0;
+    margin: 10px 0 0 0;
+}
+
+.keyPoints {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.keyPointsDescription {
+    font-size: 18px;
+    line-height: 1.2;
+    color: #171717;
+    font-family: "Humanist 521", sans-serif;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+    .homeHeader {
+        display: flex;
+        clear: both;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: #f7f1f0;
+    }
+
+    .headerHeadingTwo {
+        display: flex;
+        width: 100%;
+        /*text-align: justify;*/
+        color: #171717;
+        font-size: 12px;
+    }
+
+    .headerHeadingThree {
+        display: none;
+    }
+
+    .headerHeading {
+        display: none;
+    }
+
+    .cardLastImage {
+        display: flex;
+        margin-right: 25px;
+        width: 100%;
+    }
+
+    .cardImage {
+        display: flex;
+        margin-right: 25px;
+        width: 100%;
+    }
+
+    .newLaunchSection {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5%;
+        margin-top: 5%;
+    }
+
+    .firstMovie {
+        width: 100%;
+    }
+
+    .keyPointsData {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .keyPoints {
+        width: 100%;
+    }
+
+    .advertisementSingleSection {
+        width: 100%;
+        display: flex;
+        background-repeat: no-repeat;
+        object-fit: contain;
+        transition: opacity .5s;
+        height: 500px;
+        background-size: contain;
+        background-position: center center;
+    }
+
+    .buttonBuyMore {
+        width: 40%;
+    }
+}
